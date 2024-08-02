@@ -5,6 +5,8 @@
   kirish-chiqish `(I/O)` input-output  operatsiyalari bilan ishlashda samarali hisoblanadi.
 
 ---
+## (I/O) Input-Output
+
 
 ## Asinxron Funksiyalar (`async def`)
 
