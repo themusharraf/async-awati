@@ -9,6 +9,9 @@
 ## (I/O) Input-Output
 
   ![165px-Operating_system_placement](https://github.com/user-attachments/assets/819c67fe-1536-4c44-8ca2-1efc0f551dcf)
+
+  ![0Y7QpjZt9lRLi913D](https://github.com/user-attachments/assets/f09b2631-7f3b-4919-b287-bc7b53b84603)
+
 - Hisoblashda kiritish/chiqarish `(I/U, i/o yoki norasmiy io yoki IO)` kompyuter kabi axborotni qayta ishlash tizimi va
   boshqa kompyuter tizimi, tashqi qurilmalar yoki tashqi dunyo oʻrtasidagi aloqadir. inson operatori. Kirishlar tizim
   tomonidan qabul qilingan signallar yoki ma'lumotlar, chiqishlar esa undan yuborilgan signallar yoki ma'lumotlardir. Bu
