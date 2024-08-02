@@ -6,7 +6,6 @@
 
 ---
 ## (I/O) Input-Output
-- Operating systems
 ![165px-Operating_system_placement](https://github.com/user-attachments/assets/819c67fe-1536-4c44-8ca2-1efc0f551dcf)
 
 
