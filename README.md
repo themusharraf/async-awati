@@ -2,14 +2,18 @@
 
 - Python dasturlash tilida `async` va `await` kalit so'zlari asinxron dasturlashni amalga oshirish uchun ishlatiladi.
   Asinxron dasturlash bir vaqtning o'zida bir nechta ishlarni bajarishga imkon beradi va ayniqsa kutilayotgan
-  kirish-chiqish `(I/O)` input-output  operatsiyalari bilan ishlashda samarali hisoblanadi.
+  kirish-chiqish `(I/O)` input-output operatsiyalari bilan ishlashda samarali hisoblanadi.
 
 ---
+
 ## (I/O) Input-Output
-- Operating systems
-![165px-Operating_system_placement](https://github.com/user-attachments/assets/819c67fe-1536-4c44-8ca2-1efc0f551dcf)
 
-
+  ![165px-Operating_system_placement](https://github.com/user-attachments/assets/819c67fe-1536-4c44-8ca2-1efc0f551dcf)
+- Hisoblashda kiritish/chiqarish (I/U, i/o yoki norasmiy io yoki IO) kompyuter kabi axborotni qayta ishlash tizimi va
+  boshqa kompyuter tizimi, tashqi qurilmalar yoki tashqi dunyo oʻrtasidagi aloqadir. inson operatori. Kirishlar tizim
+  tomonidan qabul qilingan signallar yoki ma'lumotlar, chiqishlar esa undan yuborilgan signallar yoki ma'lumotlardir. Bu
+  atama harakatning bir qismi sifatida ham ishlatilishi mumkin; "I/O ni amalga oshirish" - kiritish yoki chiqarish
+  operatsiyasi deb ataladi.
 
 ## Asinxron Funksiyalar (`async def`)
 
@@ -46,7 +50,8 @@
 
 ## Asinxron Funksiyalarni Boshqarish
 
-- Asinxron funksiyalarni boshqarish uchun `asyncio` modulidan foydalaniladi. Eng ko'p ishlatiladigan usul bu `asyncio.run()`
+- Asinxron funksiyalarni boshqarish uchun `asyncio` modulidan foydalaniladi. Eng ko'p ishlatiladigan usul
+  bu `asyncio.run()`
   bo'lib, u asinxron funksiyani ishga tushiradi.
   ```python
   import asyncio
@@ -61,10 +66,13 @@
 
   asyncio.run(main())
   ```
+
 ---
+
 ## Bir Nechta Asinxron Funksiyalarni Parallel Ishlatish
 
-- Asinxron funksiyalarni `parallel` ravishda ishlatish uchun `asyncio.gather()` yoki `asyncio.create_task()` dan foydalanish mumkin.
+- Asinxron funksiyalarni `parallel` ravishda ishlatish uchun `asyncio.gather()` yoki `asyncio.create_task()` dan
+  foydalanish mumkin.
   ```python
   import asyncio
 
@@ -84,9 +92,13 @@
 
   asyncio.run(main())
   ```
-- Yuqoridagi misolda `function_1` va `function_2` parallel ravishda ishga tushadi va kutilayotgan vaqtlari tugagach, natijalarini ko'rsatadi.
+- Yuqoridagi misolda `function_1` va `function_2` parallel ravishda ishga tushadi va kutilayotgan vaqtlari tugagach,
+  natijalarini ko'rsatadi.
 
 ### Xulosa
-- `async` va `await` kalit so'zlari asinxron dasturlashni osonlashtiradi va kutilayotgan kirish-chiqish operatsiyalari bilan samarali ishlashga imkon beradi. Bu texnologiyalarni to'g'ri qo'llash dastur performansini sezilarli darajada oshirishi mumkin.
+
+- `async` va `await` kalit so'zlari asinxron dasturlashni osonlashtiradi va kutilayotgan kirish-chiqish operatsiyalari
+  bilan samarali ishlashga imkon beradi. Bu texnologiyalarni to'g'ri qo'llash dastur performansini sezilarli darajada
+  oshirishi mumkin.
 
 #### © 2024 [themusharraf](https://github.com/themusharraf)
