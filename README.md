@@ -84,3 +84,4 @@
 ### Xulosa
 - `async` va `await` kalit so'zlari asinxron dasturlashni osonlashtiradi va kutilayotgan kirish-chiqish operatsiyalari bilan samarali ishlashga imkon beradi. Bu texnologiyalarni to'g'ri qo'llash dastur performansini sezilarli darajada oshirishi mumkin.
 
+#### © 2024 [themusharraf](https://github.com/themusharraf)
